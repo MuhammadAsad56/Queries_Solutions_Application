@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(192, 188, 188);}
+
+#login{ 
+    width: 45vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px auto;
+    background-color: white;
+}
+#login h3{
+    color: rgb(67, 63, 63);
+}
+#login h2{
+    color: rgb(52, 52, 48);
+}
+.input{
+margin: 10px 0px;
+}
+.input input{
+    margin: 7px 0px;
+    padding: 11px;
+    border: 1px solid lightgray;
+    outline: 0;
+    border-radius: 13px;
+}
+#login button{
+    margin: 8px 0px 8px 0px;
+    padding: 16px;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid rgb(55, 53, 53);
+    border-radius: 999px;
+    cursor: pointer;
+}
+#login button:active{
+    background-color: rgb(141, 138, 138);
+}

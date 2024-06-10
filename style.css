@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(192, 188, 188);
+    
+}
+#registration{
+    width: 45vh;
+    margin: 90px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+#registration h2{
+    color: rgb(60, 59, 59);
+}
+#registration input{
+    margin: 20px 0px;
+    padding: 11px;
+    border: 1px solid lightgray;
+    outline: 0;
+    border-radius: 13px;
+}
+#registration button{
+    margin: 5px auto;
+    padding: 9px;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid rgb(55, 53, 53);
+    border-radius: 999px;
+    margin-inline: 9px;
+    cursor: pointer;
+}
+#registration button:active{
+    background-color: rgb(141, 138, 138);
+}

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
+ .nav{
+    width: 100%;
+    height: 70px;
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(51, 106, 107);
+    color: white;
+    background-attachment: fixed;
+}
+.nav ul{
+   display: flex;
+} 
+.nav li{
+    margin-top: 7px;
+    list-style-type: none;
+    margin-inline: 20px;
+    font-size: large;
+    color: white;
+}
+.any{
+    background-color: rgb(58, 129, 130);
+}
